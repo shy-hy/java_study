@@ -1,0 +1,5 @@
+package chapter12.controller.model;
+
+public class Book {
+
+}

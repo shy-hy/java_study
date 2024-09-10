@@ -1,0 +1,31 @@
+package chapter05;
+
+class Example {
+	int x, y;
+	
+	int add(int x, int y) {
+		return x + y ;
+	}
+	
+	int multifly(int x, int y) {
+		return x + y ;
+	}
+}
+
+	void print99dan() {
+		for (int i = 0; i < 8; i++) {
+			for (int j = 0; j < 8; j ++) {
+				System.out.println(j * i + " ");
+			}
+			System.out.println();
+		}
+	}
+
+	// class 파일
+public class method02 {
+		// main 메서드
+		// 접근제어자 정적메서드 반환타입 메서드명(매개변수) { ..구현부 }
+ public static void main(String[] args) {
+	
+}
+}}

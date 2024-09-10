@@ -1,0 +1,28 @@
+package chapter05;
+
+class Calculator {
+	// 계산기의 덧셈 기능
+	
+	int addNumbers(int a, int b) {
+		
+		int sum = a + b;
+		String name = "김나박이";
+		
+		return sum;
+	}
+}
+
+
+public class method01 {
+ public static void main(String[] args) {
+	 
+	 Calculator calc = new Calculator();
+	 
+	 System.out.println(calc.addNumbers(10,20));
+	
+	 int result = calc.addNumbers(10, 20);
+	 int result2 = calc.addNumbers(70, 50);
+	 System.out.println(result);
+	 System.out.println(result2);
+}
+}

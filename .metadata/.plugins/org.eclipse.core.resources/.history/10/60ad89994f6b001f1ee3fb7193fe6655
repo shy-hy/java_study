@@ -1,0 +1,33 @@
+package chapter04;
+
+	// 클래스 생성 (Book, Person, ...)
+	// : 속성 2개
+	// : 메서드 1개
+
+class Book { 
+	// 클래스의 속성(필드)
+	String name; 
+	int year; 
+	
+	Book(String name, int year) {
+		
+		name = name;
+		year = year;
+	}
+
+
+
+public class object04 {
+ public static void main(String[] args) {
+	 
+	 Book myBook = new Book ("백설공주", 2024);
+	 
+	 System.out.println();
+	 
+	 
+	 // 속성 출력
+	 
+	 // 메서드 호출
+
+ }}}
+
